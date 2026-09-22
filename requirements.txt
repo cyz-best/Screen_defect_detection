@@ -1,0 +1,21 @@
+# 核心深度学习框架 (建议通过 --index-url https://download.pytorch.org/whl/cu126 安装 GPU 版)
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 目标检测统一框架 (涵盖 YOLOv8, YOLOv11 与 RT-DETR)
+ultralytics>=8.3.0
+
+# Web 可视化交互演示系统
+gradio>=4.0.0
+
+# 图像处理与计算机视觉基础库
+opencv-python>=4.8.0
+pillow>=9.5.0
+
+# 数据处理与图表可视化
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tabulate>=0.9.0

@@ -1,0 +1,24 @@
+# Python 虚拟环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 训练生成权重与结果
+runs/
+*.pt
+*.onnx
+*.engine
+
+# 数据集目录 (体积过大不建议提交到版本控制)
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# IDE 与操作系统缓存
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
