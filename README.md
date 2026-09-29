@@ -20,5 +20,11 @@
 
 4. **启动 RT-DETR (Transformer) 训练**：
    ```powershell
-   & "C:\Users\cyz13\Documents\01_Projects\Detection_Methods_Based_on_Deep_Learning\.venv\Scripts\python.exe" -c "from scripts.train_rtdetr import train_rtdetr; train_rtdetr(data_yaml='datasets/screen_dataset/data.yaml', exp_name='screen_rtdetr_exp', epochs=50)"
+   & ".\.venv\Scripts\python.exe" scripts/train_rtdetr.py
    ```
+
+5. **启动 YOLOv8n-Hybrid 创新融合模型训练 (DySample + BiFPN + SPPF_CBAM + WIoU v3)**：
+   ```powershell
+   & ".\.venv\Scripts\python.exe" scripts/train_hybrid.py
+   ```
+
